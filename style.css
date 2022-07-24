@@ -2,3 +2,65 @@
 body{
     font-family: 'Scada', sans-serif;
 }
+.text-blue{
+	color: #231D4F;
+}
+.text-gray{
+	color:#D9DBE1;
+}
+.bg-blue{
+	background-color: #02010c;
+}
+
+.hero .carousel-item {
+	height: 90vh;
+	object-fit: cover;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.carousel-caption{
+	max-width: 560px;
+	margin: o auto;
+
+}
+
+.choose-btn{
+	margin-top: 5px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	background-color: #e71399;
+	color:#e1e7f1;
+	padding: 8px 40px;
+}
+.toast{
+	max-width: 15rem;
+}
+.cards>h1,h3{
+	color: #09c7e0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	transition: .7s;
+}
+.cards{
+	padding: 10px 10px;
+	transition: .6s;
+}
+.list-group-item{
+	background-color: transparent;
+
+}
+.cards:hover{
+	background-color: #9eaec7;
+	color: #ffffff;
+}
+.cards:hover h1{
+	color: white;
+}
+.cards:hover h3{
+	color: white;
+}
+.cards:hover p{
+	color: white;
+}
